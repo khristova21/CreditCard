@@ -63,4 +63,12 @@ public class CreditCard
 	{
 		return interestRate;
 	}
+	public String getName()
+	{
+		return holderName;
+	}
+	public String toString()
+	{
+		return("Card Number: " + CARD_NUM + " Name: " + holderName + " Balance: "+ balance + " Rate:" + interestRate + "\tLimit: "+ limit);
+	}
 }
